@@ -1,0 +1,2844 @@
+{
+  "@encoding": "iso-8859-1",
+  "@version": "1.0",
+  "petfinder": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "lastOffset": {
+      "$t": "25"
+    },
+    "pets": {
+      "pet": [
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {},
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {
+              "$t": "billfoundation@billfoundation.org"
+            },
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {},
+            "address1": {
+              "$t": "PO Box 5202"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/1/?bust=1406242094&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/1/?bust=1406242094&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/1/?bust=1406242094&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/1/?bust=1406242094&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/1/?bust=1406242094&width=50&-t.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/2/?bust=1406242094&width=60&-pnt.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/2/?bust=1406242094&width=95&-fpm.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/2/?bust=1406242094&width=500&-x.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/2/?bust=1406242094&width=300&-pn.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852196/2/?bust=1406242094&width=50&-t.jpg",
+                  "@id": "2"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "29852196"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Siamese"
+            }
+          },
+          "name": {
+            "$t": "Marcus"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "** COURTESY POSTING **\n\nPLEASE CONTACT JOY at 310-205-0152 IF YOU ARE INTERESTED IN ADOPTING\n\nSuper playful and outgoing 3-month-old neutered male who was rescued from a high-kill shelter with his two brothers and sister.  He has a special place in his heart for his sister, Jasmine.  They have all been bottle fed and hand raised and love to follow their rescuer's dogs around the house.  Adopt one, two, or all three - they'd be a great addition to any family!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA125"
+          },
+          "lastUpdate": {
+            "$t": "2014-07-24T22:48:15Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {},
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {
+              "$t": "billfoundation@billfoundation.org"
+            },
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {},
+            "address1": {
+              "$t": "PO Box 5202"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/1/?bust=1406242177&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/1/?bust=1406242177&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/1/?bust=1406242177&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/1/?bust=1406242177&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/1/?bust=1406242177&width=50&-t.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/2/?bust=1406242177&width=60&-pnt.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/2/?bust=1406242177&width=95&-fpm.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/2/?bust=1406242177&width=500&-x.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/2/?bust=1406242177&width=300&-pn.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852199/2/?bust=1406242177&width=50&-t.jpg",
+                  "@id": "2"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "29852199"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Siamese"
+            }
+          },
+          "name": {
+            "$t": "Jasmine"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "** COURTESY POSTING **\n\nPLEASE CONTACT JOY at 310-205-0152 IF YOU ARE INTERESTED IN ADOPTING\n\nSuper playful and outgoing 3-month-old spayed female who was rescued from a high-kill shelter with her three brothers.  She is her brother Marcus' favorite sibling. They have all been bottle fed and hand raised and love to follow her rescuer's dogs around the house.  Adopt one, two, or all three - they'd be a great addition to any family!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA125"
+          },
+          "lastUpdate": {
+            "$t": "2014-07-24T22:49:38Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {},
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {
+              "$t": "billfoundation@billfoundation.org"
+            },
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {},
+            "address1": {
+              "$t": "PO Box 5202"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/1/?bust=1406242327&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/1/?bust=1406242327&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/1/?bust=1406242327&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/1/?bust=1406242327&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/1/?bust=1406242327&width=50&-t.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/2/?bust=1406242327&width=60&-pnt.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/2/?bust=1406242327&width=95&-fpm.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/2/?bust=1406242327&width=500&-x.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/2/?bust=1406242327&width=300&-pn.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/2/?bust=1406242327&width=50&-t.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/3/?bust=1406242328&width=60&-pnt.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/3/?bust=1406242328&width=95&-fpm.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/3/?bust=1406242328&width=500&-x.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/3/?bust=1406242328&width=300&-pn.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852209/3/?bust=1406242328&width=50&-t.jpg",
+                  "@id": "3"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "29852209"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Siamese"
+            }
+          },
+          "name": {
+            "$t": "Jessie"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "** COURTESY POSTING **\n\nPLEASE CONTACT JOY at 310-205-0152 IF YOU ARE INTERESTED IN ADOPTING\n\nSuper playful and outgoing 3-month-old neutered male who was rescued from a high-kill shelter with his two brothers and sister.  They have all been bottle fed and hand raised and love to follow their rescuer's dogs around the house.  Adopt one, two, or all three - they'd be a great addition to any family!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA125"
+          },
+          "lastUpdate": {
+            "$t": "2014-07-24T22:52:09Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {},
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {
+              "$t": "billfoundation@billfoundation.org"
+            },
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {},
+            "address1": {
+              "$t": "PO Box 5202"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/1/?bust=1406242459&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/1/?bust=1406242459&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/1/?bust=1406242459&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/1/?bust=1406242459&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/1/?bust=1406242459&width=50&-t.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/2/?bust=1406242460&width=60&-pnt.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/2/?bust=1406242460&width=95&-fpm.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/2/?bust=1406242460&width=500&-x.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/2/?bust=1406242460&width=300&-pn.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29852214/2/?bust=1406242460&width=50&-t.jpg",
+                  "@id": "2"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "29852214"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Siamese"
+            }
+          },
+          "name": {
+            "$t": "Jackson"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "** COURTESY POSTING **\n\nPLEASE CONTACT JOY at 310-205-0152 IF YOU ARE INTERESTED IN ADOPTING\n\nSuper playful and outgoing 3-month-old neutered male who was rescued from a high-kill shelter with his two brothers and sister.  They have all been bottle fed and hand raised and love to follow their rescuer's dogs around the house.  Adopt one, two, or all three - they'd be a great addition to any family!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA125"
+          },
+          "lastUpdate": {
+            "$t": "2014-07-24T22:54:20Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "specialNeeds"
+              },
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {},
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {
+              "$t": "billfoundation@billfoundation.org"
+            },
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {},
+            "address1": {
+              "$t": "PO Box 5202"
+            }
+          },
+          "age": {
+            "$t": "Adult"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/1/?bust=1446294627&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/1/?bust=1446294627&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/1/?bust=1446294627&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/1/?bust=1446294627&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/1/?bust=1446294627&width=50&-t.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/2/?bust=1446294628&width=60&-pnt.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/2/?bust=1446294628&width=95&-fpm.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/2/?bust=1446294628&width=500&-x.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/2/?bust=1446294628&width=300&-pn.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/2/?bust=1446294628&width=50&-t.jpg",
+                  "@id": "2"
+                },
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/3/?bust=1458586719&width=60&-pnt.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/3/?bust=1458586719&width=95&-fpm.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/3/?bust=1458586719&width=500&-x.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/3/?bust=1458586719&width=300&-pn.jpg",
+                  "@id": "3"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/33664649/3/?bust=1458586719&width=50&-t.jpg",
+                  "@id": "3"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "33664649"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair - brown"
+            }
+          },
+          "name": {
+            "$t": "Gertrude"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Gertrude was found on the street in pretty bad shape. She was emaciated, had mange and a badly infected eye. For awhile, we did not think she would survive. However, this sweet kitty is strong and resilient and is doing much better.\n\nDue to a medical condition, Gertrude is incontinent and will need a home that can accommodate her special needs. \n\nShe is a gentle soul and will make a great cat for anyone looking for an affectionate companion. We think Gerty is about 10 years old but has shown us she clearly has 9 lives left!\n\nGertrude can be seen by appointment. She does not attend our adoption events. \n\n\nINTERESTED IN ADOPTING?Check our website at www.billfoundation.org for an adoption event schedule, and for information on how to adopt. For adoption process click, \"How to  Adopt,\" then click, \"Adopting from TBF\". To find the cat application click, \"How to Adopt,\" then click, \"Forms & Applications,\" then click, \"Cats\".Complete the application online and submit. Our adoption committee will review your  application, and someone will contact you. If you are unable to attend our bi-monthly adoption events, we are able to show dogs/cats by private appointment when an application is submitted that seems to be a  particularly good match for one of our rescues!\n\nAPPLICANT MUST COMPLETE AN ONLINE ADOPTION APPLICATION\nAPPLICANT MUST BE AT LEAST 21 YEARS OLD\nAPPLICANT SHOULD LIVE IN THE LOS ANGELES AREA"
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA125"
+          },
+          "lastUpdate": {
+            "$t": "2016-03-21T18:58:39Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/16285335/3/?bust=1383505127&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/16285335/3/?bust=1383505127&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/16285335/3/?bust=1383505127&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/16285335/3/?bust=1383505127&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/16285335/3/?bust=1383505127&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "16285335"
+          },
+          "shelterPetId": {
+            "$t": "Mildred"
+          },
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Medium Hair-black"
+            }
+          },
+          "name": {
+            "$t": "Mildred 'Millie:"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "My name is Mildred.  I am a young beautiful girl with thick, lush sable fur.  I came to the Amanda Foundation with Edith when our human dad went to heaven.  We are both sweet, gentle girls who are just a little scared and wonder why we are here.  We love being in a home and cuddling.  Won't you give us a call.?  Please?   Love Mildred"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2014-12-16T17:20:24Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/29103047/1/?bust=1424119423&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/29103047/1/?bust=1424119423&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/29103047/1/?bust=1424119423&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/29103047/1/?bust=1424119423&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/29103047/1/?bust=1424119423&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "29103047"
+          },
+          "shelterPetId": {
+            "$t": "Sally"
+          },
+          "breeds": {
+            "breed": [
+              {
+                "$t": "Siamese"
+              },
+              {
+                "$t": "Snowshoe"
+              }
+            ]
+          },
+          "name": {
+            "$t": "Sally"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Sally is a breath-taking Siamese/Snowshoe mix that is about three years old. She is incredibly affectionate, loving and gets along well with other cats. Looking for a blue-eyed beauty to add to your family? Call 310-278-2935!"
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2015-02-16T20:43:43Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Adult"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234099/1/?bust=1464456633&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234099/1/?bust=1464456633&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234099/1/?bust=1464456633&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234099/1/?bust=1464456633&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234099/1/?bust=1464456633&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234099"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair - orange and white"
+            }
+          },
+          "name": {
+            "$t": "Summer"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Meet sweet and happy Summer.  She is a beautiful peach\nand white 6 year old lady. Loves to be pet and sit on you lap. Summer\nis the whole package and loves her friend Noah."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T17:30:34Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234120/1/?bust=1464457052&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234120/1/?bust=1464457052&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234120/1/?bust=1464457052&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234120/1/?bust=1464457052&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234120/1/?bust=1464457052&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234120"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Siamese"
+            }
+          },
+          "name": {
+            "$t": "Star"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Introducing the stunning Star!  Star is a young 2 year old Siamese mix.  This gorgeous girl will flirt with you with her beautiful blue eyes.  She loves to play and be the center of attention. If you are looking for for a beauty with a personality, Star is your girl."
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T17:37:33Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Adult"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234379/1/?bust=1464459545&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234379/1/?bust=1464459545&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234379/1/?bust=1464459545&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234379/1/?bust=1464459545&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234379/1/?bust=1464459545&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234379"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Medium Hair - gray and white"
+            }
+          },
+          "name": {
+            "$t": "Lacy"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "This pretty green eyed girl is between 9 -10 years old.  Perfect as your only kitty and lap warmer Give Lacy a second chance and welcome this special girl into your home."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T18:19:06Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234585/1/?bust=1464460708&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234585/1/?bust=1464460708&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234585/1/?bust=1464460708&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234585/1/?bust=1464460708&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234585/1/?bust=1464460708&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234585"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": [
+              {
+                "$t": "Siamese"
+              },
+              {
+                "$t": "Snowshoe"
+              }
+            ]
+          },
+          "name": {
+            "$t": "Sally"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "This is sexy, sassy, Sally, one of our favorites.  Look into her eyes and let her cast her spell. Sweet Sally is a Snowshoe, Siamese mix.  She will sleep on your lap and be your forever girl.  She would be great as an only kitty, or with another mellow kitty. To meet her is to love her."
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T18:38:28Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Adult"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234604/1/?bust=1464461467&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234604/1/?bust=1464461467&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234604/1/?bust=1464461467&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234604/1/?bust=1464461467&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234604/1/?bust=1464461467&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234604"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Long Hair-black"
+            }
+          },
+          "name": {
+            "$t": "Bradbury"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Bradbury  is a very happy 8 year old boy, and would love to be in a kind and forever home. As soon as you meet Bradbury, you will fall in love with his sweet personality."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T18:51:07Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234637/1/?bust=1464462007&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234637/1/?bust=1464462007&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234637/1/?bust=1464462007&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234637/1/?bust=1464462007&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234637/1/?bust=1464462007&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234637"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair-gray"
+            }
+          },
+          "name": {
+            "$t": "Elaine"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "All vaccines are current, she is microchipped, and is positive for FCV, which is a respiratory virus, so she would need to be an only cat. Elaine shows no signs of the virus presently, but it can resurface. She is looking for a second chance in a quiet home as the only kitty. Please consider this lovely 2 year old beauty."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T19:00:07Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234701/1/?bust=1464462243&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234701/1/?bust=1464462243&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234701/1/?bust=1464462243&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234701/1/?bust=1464462243&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234701/1/?bust=1464462243&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234701"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Havana"
+            }
+          },
+          "name": {
+            "$t": "Coco"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Coco is a handsome chocolate Havanese mix.  This young cat is sweet and gentle, loves people and other cats."
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T19:04:04Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Adult"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234722/1/?bust=1464462370&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234722/1/?bust=1464462370&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234722/1/?bust=1464462370&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234722/1/?bust=1464462370&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234722/1/?bust=1464462370&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234722"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Calico"
+            }
+          },
+          "name": {
+            "$t": "Kalinda"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Kalinda is a beautiful 6 year old long haired Calico princess, who wants to be treated that way.  She is affectionate, tolerates other cats, but definitely will be the alpha. She has a colorful personality that will warm your heart and keep you guessing."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T19:06:11Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234817/1/?bust=1464463172&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234817/1/?bust=1464463172&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234817/1/?bust=1464463172&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234817/1/?bust=1464463172&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234817/1/?bust=1464463172&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234817"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Tortoiseshell"
+            }
+          },
+          "name": {
+            "$t": "Frida"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Little Frida is a year old beautiful Tortie.  She loves rubs and pets and lots of attention.\nShe is playful, cute and talkative.  A perfect purr baby that will touch your heart."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T19:19:32Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Young"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234844/1/?bust=1464463328&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234844/1/?bust=1464463328&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234844/1/?bust=1464463328&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234844/1/?bust=1464463328&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35234844/1/?bust=1464463328&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35234844"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair - gray and white"
+            }
+          },
+          "name": {
+            "$t": "Kaley"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "This green eyed girl will win you over with her playful personality.  She is a young 2-3 year old who would love to be in a forever home. Lots of love to share with her new family."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-05-28T19:22:09Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262920/1/?bust=1464805885&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262920/1/?bust=1464805885&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262920/1/?bust=1464805885&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262920/1/?bust=1464805885&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262920/1/?bust=1464805885&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35262920"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair-black and white"
+            }
+          },
+          "name": {
+            "$t": "Honeydew"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Honeydew is an elegant and beautiful young kitten who is eagerly awaiting a loving forever home. She is friendly, playful, and loves to cuddle. Come meet Honeydew and fall deeply in love!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-01T18:31:26Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262986/1/?bust=1464807119&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262986/1/?bust=1464807119&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262986/1/?bust=1464807119&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262986/1/?bust=1464807119&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35262986/1/?bust=1464807119&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35262986"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair-black and white"
+            }
+          },
+          "name": {
+            "$t": "Cookie"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Cookie is a real stunner; just look at that gorgeous tuxedo! Luckily for her (and you!), she's got a personality to match. Come meet Cookie, because she is very excited to meet you and move in to her forever home."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-01T18:52:00Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263490/1/?bust=1464809912&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263490/1/?bust=1464809912&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263490/1/?bust=1464809912&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263490/1/?bust=1464809912&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263490/1/?bust=1464809912&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35263490"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Short Hair-black and white"
+            }
+          },
+          "name": {
+            "$t": "Gunther"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Gunther is a very spirited young kitten. He definitely has an adventurer's spirit, and loves to play and explore, so if you're looking for a playful and vivacious little buddy, Gunther is your man!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-01T19:38:32Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263566/1/?bust=1464811147&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263566/1/?bust=1464811147&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263566/1/?bust=1464811147&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263566/1/?bust=1464811147&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263566/1/?bust=1464811147&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35263566"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Tabby"
+            }
+          },
+          "name": {
+            "$t": "Heidi & Helen"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Meet Heidi (brown striped Tabby), and Helen (grey tabby), two young females with a lot of love to give. Just stare into Helen's hypnotic blue eyes, and you'll fall deeply and helplessly in love with her or her sister. Come meet one (or both!) of them today!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-01T19:59:08Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263968/1/?bust=1464812220&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263968/1/?bust=1464812220&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263968/1/?bust=1464812220&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263968/1/?bust=1464812220&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35263968/1/?bust=1464812220&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35263968"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Tabby - Grey"
+            }
+          },
+          "name": {
+            "$t": "Holly & Hannah"
+          },
+          "sex": {
+            "$t": "F"
+          },
+          "description": {
+            "$t": "Holly & Hannah are two beautiful sisters, who (along with sisters Heidi & Helen) came into this world full of personality and love. Come meet these two and let either of them absolutely melt your heart."
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-01T20:17:01Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35280368/1/?bust=1464965990&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35280368/1/?bust=1464965990&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35280368/1/?bust=1464965990&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35280368/1/?bust=1464965990&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35280368/1/?bust=1464965990&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35280368"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Domestic Medium Hair - gray and white"
+            }
+          },
+          "name": {
+            "$t": "Deter & David"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Deter & David are two very playful brothers, whose desire to goof around is only outdone by their desire to cuddle up with you. Come meet these beautiful and friendly boys!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-03T14:59:50Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281671/1/?bust=1464970885&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281671/1/?bust=1464970885&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281671/1/?bust=1464970885&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281671/1/?bust=1464970885&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281671/1/?bust=1464970885&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35281671"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": [
+              {
+                "$t": "Domestic Medium Hair-black and white"
+              },
+              {
+                "$t": "Domestic Medium Hair - gray and white"
+              }
+            ]
+          },
+          "name": {
+            "$t": "Damien & Demetrius"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Damien & Demetrius are brothers from the same litter as David & Deter, and are just as loving and playful as their brothers. With amazing personalities and hypnotizing-eyes, just a few minutes with either of these two and you'll be helplessly in love. Come meet them today!"
+          },
+          "mix": {
+            "$t": "yes"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-03T16:21:26Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        },
+        {
+          "options": {
+            "option": [
+              {
+                "$t": "hasShots"
+              },
+              {
+                "$t": "altered"
+              },
+              {
+                "$t": "housetrained"
+              }
+            ]
+          },
+          "status": {
+            "$t": "A"
+          },
+          "contact": {
+            "phone": {
+              "$t": "310-278-2935"
+            },
+            "state": {
+              "$t": "CA"
+            },
+            "address2": {},
+            "email": {},
+            "city": {
+              "$t": "Beverly Hills"
+            },
+            "zip": {
+              "$t": "90210"
+            },
+            "fax": {
+              "$t": "310 550 1664"
+            },
+            "address1": {
+              "$t": "351  North Foothill Rd.  (Mailing only)"
+            }
+          },
+          "age": {
+            "$t": "Baby"
+          },
+          "size": {
+            "$t": "S"
+          },
+          "media": {
+            "photos": {
+              "photo": [
+                {
+                  "@size": "pnt",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281738/1/?bust=1464971143&width=60&-pnt.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "fpm",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281738/1/?bust=1464971143&width=95&-fpm.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "x",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281738/1/?bust=1464971143&width=500&-x.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "pn",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281738/1/?bust=1464971143&width=300&-pn.jpg",
+                  "@id": "1"
+                },
+                {
+                  "@size": "t",
+                  "$t": "http://photos.petfinder.com/photos/pets/35281738/1/?bust=1464971143&width=50&-t.jpg",
+                  "@id": "1"
+                }
+              ]
+            }
+          },
+          "id": {
+            "$t": "35281738"
+          },
+          "shelterPetId": {},
+          "breeds": {
+            "breed": {
+              "$t": "Tabby - Brown"
+            }
+          },
+          "name": {
+            "$t": "Andy & Alex"
+          },
+          "sex": {
+            "$t": "M"
+          },
+          "description": {
+            "$t": "Andy & Alex are two peas in a pod, both of them playful and cuddly cuties. All they need now is a loving forever home, and they'd surely be the happiest cats in town!"
+          },
+          "mix": {
+            "$t": "no"
+          },
+          "shelterId": {
+            "$t": "CA27"
+          },
+          "lastUpdate": {
+            "$t": "2016-06-03T16:25:44Z"
+          },
+          "animal": {
+            "$t": "Cat"
+          }
+        }
+      ]
+    },
+    "header": {
+      "timestamp": {
+        "$t": "2016-08-29T03:40:23Z"
+      },
+      "status": {
+        "message": {},
+        "code": {
+          "$t": "100"
+        }
+      },
+      "version": {
+        "$t": "0.1"
+      }
+    },
+    "@xsi:noNamespaceSchemaLocation": "http://api.petfinder.com/schemas/0.9/petfinder.xsd"
+  }
+}
+

@@ -8,6 +8,7 @@ import android.widget.TextView
 import butterknife.BindView
 import butterknife.ButterKnife
 import ventegocreative.co.nz.sot.adapters.AnimalListAdapter
+import ventegocreative.co.nz.sot.model.api.PetfinderRequest
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,5 +30,8 @@ class MainActivity : AppCompatActivity() {
         animalList.layoutManager = LinearLayoutManager(this)
         animalList.adapter = AnimalListAdapter(animalItems)
 
-  }
+        var result = PetfinderRequest("90210", "cat", this).send()
+
+
+    }
 }
