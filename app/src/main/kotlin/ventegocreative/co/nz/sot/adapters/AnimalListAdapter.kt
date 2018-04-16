@@ -10,6 +10,7 @@ import butterknife.ButterKnife
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.model.domain.Pet
 import ventegocreative.co.nz.sot.model.domain.PetList
+import ventegocreative.co.nz.sot.model.mappers.PetDataSexMapper
 
 class AnimalListAdapter constructor(val items: PetList, val click: AnimalListAdapter.ItemClickListener) : RecyclerView.Adapter<AnimalListAdapter.ViewHolder>() {
 
@@ -44,12 +45,7 @@ class AnimalListAdapter constructor(val items: PetList, val click: AnimalListAda
                 itemView.setOnClickListener { click(this) }
                 nameTV.text = name
                 ageTV.text = "Age: $age"
-
-                when (sex) {
-                    "M" -> sexTV.text = "Male"
-                    "F" -> sexTV.text = "Female"
-                }
-
+                sexTV.text = PetDataSexMapper.petSexShortFullMapper(sex)
                 sizeTV.text = "Size: $size"
             }
         }
