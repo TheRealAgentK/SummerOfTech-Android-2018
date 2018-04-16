@@ -7,9 +7,11 @@ import android.support.v7.widget.RecyclerView
 import butterknife.BindView
 import butterknife.ButterKnife
 import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.toast
 import org.jetbrains.anko.uiThread
 import ventegocreative.co.nz.sot.adapters.AnimalListAdapter
 import ventegocreative.co.nz.sot.commands.PetFindCommand
+import ventegocreative.co.nz.sot.model.domain.Pet
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,7 +34,13 @@ class MainActivity : AppCompatActivity() {
         doAsync() {
             val result = PetFindCommand("90210","cat").execute()
             uiThread {
-                animalList.adapter = AnimalListAdapter(result)
+                animalList.adapter = AnimalListAdapter(result,
+                        object: AnimalListAdapter.ItemClickListener{
+                            override fun invoke(pet: Pet) {
+                                toast(pet.name)
+                            }
+                        }
+                )
             }
         }
 
