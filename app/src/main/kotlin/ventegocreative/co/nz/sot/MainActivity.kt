@@ -25,13 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        frameLayout {
-            recyclerView {
-                id = R.id.animal_list
-                layoutManager = LinearLayoutManager(ctx)
-            }
-        }
-
+        MainActivityUI().setContentView(this)
         ButterKnife.bind(this)
 
         animalList.layoutManager = LinearLayoutManager(this)
@@ -46,6 +40,19 @@ class MainActivity : AppCompatActivity() {
                             }
                         }
                 )
+            }
+        }
+    }
+}
+
+
+class MainActivityUI : AnkoComponent<MainActivity> {
+
+    override fun createView(ui: AnkoContext<MainActivity>) = with(ui) {
+        frameLayout {
+            recyclerView {
+                id = R.id.animal_list
+                layoutManager = LinearLayoutManager(ctx)
             }
         }
     }
