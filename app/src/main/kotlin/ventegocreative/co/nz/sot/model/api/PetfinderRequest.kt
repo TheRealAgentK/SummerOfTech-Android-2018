@@ -1,7 +1,9 @@
 package ventegocreative.co.nz.sot.model.api
 
 import android.content.Context
-import com.google.gson.Gson
+import com.google.gson.GsonBuilder
+import ventegocreative.co.nz.sot.model.data.Pet
+import ventegocreative.co.nz.sot.model.data.parsing.PetDeserializer
 import ventegocreative.co.nz.sot.utils.DemoUtils
 import java.net.URL
 
@@ -17,12 +19,15 @@ class PetfinderRequest(val zipCode: String, val animal: String, val myContext: C
 
     }
 
-    fun send(): String {
+    fun send(): PetfinderResult {
 
         //val result = URL(REQUEST_URL + "&location=" + zipCode + "&animal=" + animal).readText()
-        //return Gson().fromJson(result, PetfinderResult::class.java)
+        val result = DemoUtils(myContext).loadJSONFromAsset("sampledata.json")
 
-        val results = DemoUtils(myContext).loadJSONFromAsset("sampledata.json")
-        return results
+        val gsonBldr = GsonBuilder()
+        gsonBldr.registerTypeAdapter(Pet::class.java, PetDeserializer())
+        val targetObject = gsonBldr.create().fromJson(result, PetfinderResult::class.java)
+        return targetObject
+
     }
 }
