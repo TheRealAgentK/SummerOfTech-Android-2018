@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
 
         animalList.layoutManager = LinearLayoutManager(this)
 
-        doAsync() {
-            val result = PetFindCommand("90210","cat").execute()
+        doAsync(exceptionHandler = { throwable : Throwable -> throwable.printStackTrace() }) {
+        val result = PetFindCommand("90210","cat").execute()
             uiThread {
                 animalList.adapter = AnimalListAdapter(result,
                         object: AnimalListAdapter.ItemClickListener{
