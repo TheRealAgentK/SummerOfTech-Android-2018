@@ -1,5 +1,6 @@
 package ventegocreative.co.nz.sot.form
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.databinding.DataBindingUtil
@@ -33,6 +34,12 @@ class FormActivity : AppCompatActivity() {
 		return super.onOptionsItemSelected(item)
 	}
 	
+	override fun onBackPressed() {
+		setResult(Activity.RESULT_CANCELED)
+		super.onBackPressed()
+	}
+	
+	
 	private fun saveFilm() {
 		with(binding) {
 			LocalData(this@FormActivity).saveFilm(Film(
@@ -41,6 +48,7 @@ class FormActivity : AppCompatActivity() {
 					directorEt.text.toString(),
 					releaseDateEt.text.toString()))
 		}
+		setResult(Activity.RESULT_OK)
 		finish()
 	}
 	
