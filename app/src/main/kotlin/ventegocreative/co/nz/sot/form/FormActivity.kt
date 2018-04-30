@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import ventegocreative.co.nz.sot.R
+import ventegocreative.co.nz.sot.data.LocalData
+import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.databinding.ActivityFormBinding
 
 class FormActivity : AppCompatActivity() {
@@ -19,6 +21,7 @@ class FormActivity : AppCompatActivity() {
 		
 		supportActionBar?.setDisplayHomeAsUpEnabled(true)
 		
+		binding.doneFab.setOnClickListener { saveFilm() }
 	}
 	
 	override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -28,6 +31,17 @@ class FormActivity : AppCompatActivity() {
 		}
 		
 		return super.onOptionsItemSelected(item)
+	}
+	
+	private fun saveFilm() {
+		with(binding) {
+			LocalData(this@FormActivity).saveFilm(Film(
+					titleEt.text.toString(),
+					descriptionEt.text.toString(),
+					directorEt.text.toString(),
+					releaseDateEt.text.toString()))
+		}
+		finish()
 	}
 	
 	companion object {
