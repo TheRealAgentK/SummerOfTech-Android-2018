@@ -13,7 +13,7 @@ import ventegocreative.co.nz.sot.data.models.Film
 class FilmListAdapter constructor(val films: List<Film>, val click: (Film) -> Unit) : RecyclerView.Adapter<FilmListAdapter.ViewHolder>() {
 	
 	override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-		val view = LayoutInflater.from(parent.context).inflate(R.layout.petlist_item, parent, false)
+		val view = LayoutInflater.from(parent.context).inflate(R.layout.row_film, parent, false)
 		return ViewHolder(view, click)
 	}
 	
@@ -25,14 +25,10 @@ class FilmListAdapter constructor(val films: List<Film>, val click: (Film) -> Un
 	
 	class ViewHolder(val view: View, val click: (Film) -> Unit) : RecyclerView.ViewHolder(view) {
 		
-		@BindView(R.id.name)
-		lateinit var nameTV: TextView
-		@BindView(R.id.age)
-		lateinit var ageTV: TextView
-		@BindView(R.id.sex)
-		lateinit var sexTV: TextView
-		@BindView(R.id.size)
-		lateinit var sizeTV: TextView
+		@BindView(R.id.title)
+		lateinit var tvTitle: TextView
+		@BindView(R.id.description)
+		lateinit var tvDescription: TextView
 		
 		init {
 			ButterKnife.bind(this, view)
@@ -41,8 +37,8 @@ class FilmListAdapter constructor(val films: List<Film>, val click: (Film) -> Un
 		fun bind(film: Film) {
 			with(film) {
 				itemView.setOnClickListener { click(film) }
-				nameTV.text = title
-				ageTV.text = description
+				tvTitle.text = title
+				tvDescription.text = description
 			}
 		}
 	}
