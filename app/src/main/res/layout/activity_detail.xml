@@ -6,7 +6,11 @@
 	>
 	
 	<data>
-	
+		
+		<variable
+			name="model"
+			type="ventegocreative.co.nz.sot.detail.DetailViewModel"
+			/>
 	</data>
 	
 	<android.support.v4.widget.NestedScrollView
@@ -20,7 +24,6 @@
 			android:layout_height="wrap_content"
 			>
 			
-			
 			<ImageView
 				android:id="@+id/header_image"
 				android:layout_width="0dp"
@@ -28,11 +31,11 @@
 				android:adjustViewBounds="true"
 				android:minHeight="150dp"
 				android:scaleType="centerCrop"
+				app:imageUrl="@{model.imageUrl}"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintHeight_min="150dp"
 				app:layout_constraintStart_toStartOf="parent"
 				app:layout_constraintTop_toTopOf="parent"
-				tools:src="@drawable/mock_image"
 				/>
 			
 			<TextView
@@ -45,6 +48,7 @@
 				android:paddingEnd="@dimen/padding_24dp"
 				android:paddingStart="@dimen/padding_24dp"
 				android:paddingTop="@dimen/padding_24dp"
+				android:text="@{model.title}"
 				android:textColor="@color/white"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +65,7 @@
 				android:paddingBottom="@dimen/padding_24dp"
 				android:paddingEnd="@dimen/padding_24dp"
 				android:paddingStart="@dimen/padding_24dp"
+				android:text="@{model.subtitle}"
 				android:textColor="@color/white"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="parent"
@@ -75,11 +80,13 @@
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:padding="@dimen/padding_16dp"
+				android:text="@{model.description}"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="parent"
 				app:layout_constraintTop_toBottomOf="@id/subtitle"
 				tools:text="Example description that's reasonably long to show what it would look like with a full detail"
 				/>
+		
 		
 		</android.support.constraint.ConstraintLayout>
 	
