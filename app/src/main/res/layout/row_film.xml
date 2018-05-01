@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="@dimen/padding_4dp"
+	android:foreground="?android:selectableItemBackground"
+	app:contentPadding="@dimen/padding_16dp"
+	>
+	
+	<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		
+		<!-- All text styles use default material design https://material.io/guidelines/style/typography.html#typography-styles-->
+		
+		<TextView
+			android:id="@+id/title"
+			style="@style/TextAppearance.AppCompat.Title"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:textColor="@color/grey"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:text="Title"
+			/>
+		
+		<TextView
+			android:id="@+id/description"
+			style="@style/TextAppearance.AppCompat.Body1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:textColor="@color/grey"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/title"
+			tools:text="Title"
+			/>
+	
+	</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

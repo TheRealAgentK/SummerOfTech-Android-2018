@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	>
+	
+	<data>
+		
+		<variable
+			name="model"
+			type="ventegocreative.co.nz.sot.detail.DetailViewModel"
+			/>
+	</data>
+	
+	<android.support.v4.widget.NestedScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".detail.DetailActivity"
+		>
+		
+		<android.support.constraint.ConstraintLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<ImageView
+				android:id="@+id/header_image"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:adjustViewBounds="true"
+				android:minHeight="150dp"
+				android:scaleType="centerCrop"
+				app:imageUrl="@{model.imageUrl}"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHeight_min="150dp"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				/>
+			
+			<TextView
+				android:id="@+id/title"
+				style="@style/TextAppearance.AppCompat.Headline"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="@color/red"
+				android:paddingBottom="@dimen/padding_4dp"
+				android:paddingEnd="@dimen/padding_24dp"
+				android:paddingStart="@dimen/padding_24dp"
+				android:paddingTop="@dimen/padding_24dp"
+				android:text="@{model.title}"
+				android:textColor="@color/white"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/header_image"
+				tools:text="Example title"
+				/>
+			
+			<TextView
+				android:id="@+id/subtitle"
+				style="@style/TextAppearance.AppCompat.Subhead"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="@color/red"
+				android:paddingBottom="@dimen/padding_24dp"
+				android:paddingEnd="@dimen/padding_24dp"
+				android:paddingStart="@dimen/padding_24dp"
+				android:text="@{model.subtitle}"
+				android:textColor="@color/white"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/title"
+				tools:text="Example title"
+				/>
+			
+			
+			<TextView
+				android:id="@+id/description"
+				style="@style/TextAppearance.AppCompat.Body1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:padding="@dimen/padding_16dp"
+				android:text="@{model.description}"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/subtitle"
+				tools:text="Example description that's reasonably long to show what it would look like with a full detail"
+				/>
+		
+		
+		</android.support.constraint.ConstraintLayout>
+	
+	</android.support.v4.widget.NestedScrollView>
+</layout>
