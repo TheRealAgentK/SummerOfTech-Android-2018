@@ -4,4 +4,6 @@
     <string name="form_release_date">Release date</string>
     <string name="form_director">Director</string>
     <string name="form_description">Description</string>
+    <string name="buyMovie">Buy This Movie</string>
+    <string name="puchaseOkToast">Purchase successful</string>
 </resources>

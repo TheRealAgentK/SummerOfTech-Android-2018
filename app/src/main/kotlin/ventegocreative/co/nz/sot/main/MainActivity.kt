@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 	lateinit var filmList: RecyclerView
 	@BindView(R.id.add_fab)
 	lateinit var addFab: FloatingActionButton
-	
+
 	
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 		addFab.setOnClickListener { startActivityForResult(FormActivity.getIntent(this), REQUESTCODE_ADDFILM) }
 		
 		fetchAndDisplayFilmsList()
-		
+
 	}
 	
 	override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

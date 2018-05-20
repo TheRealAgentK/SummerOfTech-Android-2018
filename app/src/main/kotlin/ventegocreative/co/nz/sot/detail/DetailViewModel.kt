@@ -1,12 +1,16 @@
 package ventegocreative.co.nz.sot.detail
 
+import android.content.Context
 import android.databinding.BindingAdapter
+import android.util.Log
+import android.view.View
 import android.widget.ImageView
+import android.widget.Toast
 import com.squareup.picasso.Picasso
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.models.Film
 
-class DetailViewModel(private val film: Film) {
+class DetailViewModel(private val context: Context, private val film: Film) {
 	
 	fun getTitle() = film.title
 	
@@ -15,7 +19,12 @@ class DetailViewModel(private val film: Film) {
 	fun getDescription() = film.description
 	
 	fun getImageUrl() = "https://robohash.org/${film.id}.png?bgset=any"
-	
+
+	fun onClickBuyMovie() {
+		Toast.makeText(context, context.getString(R.string.puchaseOkToast), Toast.LENGTH_SHORT).show()
+		Log.i(DetailViewModel::class.java.simpleName, "Purchased: " + getTitle())
+	}
+
 	companion object {
 		
 		@JvmStatic
@@ -27,6 +36,5 @@ class DetailViewModel(private val film: Film) {
 					.into(view)
 		}
 	}
-	
-	
+
 }
