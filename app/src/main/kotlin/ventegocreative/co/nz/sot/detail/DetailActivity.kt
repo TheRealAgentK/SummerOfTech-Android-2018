@@ -6,6 +6,7 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import com.google.firebase.analytics.FirebaseAnalytics
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.databinding.ActivityDetailBinding
@@ -15,6 +16,7 @@ class DetailActivity : AppCompatActivity() {
 	
 	lateinit var binding: ActivityDetailBinding
 	lateinit var film: Film
+	lateinit var mFirebaseAnalytics: FirebaseAnalytics
 	
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -26,6 +28,8 @@ class DetailActivity : AppCompatActivity() {
 		film = intent.getParcelableExtra(EXTRA_FILM)
 		
 		binding.model = DetailViewModel(this, film)
+
+		val mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
 	}
 	
 	override fun onOptionsItemSelected(item: MenuItem): Boolean {
