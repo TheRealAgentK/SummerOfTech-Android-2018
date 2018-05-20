@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
 import butterknife.BindView
 import butterknife.ButterKnife
+import com.google.firebase.analytics.FirebaseAnalytics
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import ventegocreative.co.nz.sot.R
@@ -24,18 +25,20 @@ class MainActivity : AppCompatActivity() {
 	@BindView(R.id.add_fab)
 	lateinit var addFab: FloatingActionButton
 
-	
+	lateinit var mFirebaseAnalytics: FirebaseAnalytics
+
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
-		
+
 		setContentView(R.layout.activity_main)
-		
+
 		ButterKnife.bind(this)
-		
+
 		addFab.setOnClickListener { startActivityForResult(FormActivity.getIntent(this), REQUESTCODE_ADDFILM) }
-		
+
 		fetchAndDisplayFilmsList()
 
+		mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
 	}
 	
 	override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
