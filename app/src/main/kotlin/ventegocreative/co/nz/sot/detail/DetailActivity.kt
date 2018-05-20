@@ -14,19 +14,18 @@ import ventegocreative.co.nz.sot.databinding.ActivityDetailBinding
 class DetailActivity : AppCompatActivity() {
 	
 	lateinit var binding: ActivityDetailBinding
-	
 	lateinit var film: Film
 	
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
+
 		binding = DataBindingUtil.setContentView(this, R.layout.activity_detail)
 		
 		supportActionBar?.setDisplayHomeAsUpEnabled(true)
 		
 		film = intent.getParcelableExtra(EXTRA_FILM)
 		
-		binding.model = DetailViewModel(film)
-		
+		binding.model = DetailViewModel(this, film)
 	}
 	
 	override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -37,8 +36,7 @@ class DetailActivity : AppCompatActivity() {
 		
 		return super.onOptionsItemSelected(item)
 	}
-	
-	
+
 	companion object {
 		
 		val EXTRA_FILM = "_EXTRA_FILM"

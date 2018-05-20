@@ -6,11 +6,12 @@
 	>
 	
 	<data>
-		
+
 		<variable
 			name="model"
 			type="ventegocreative.co.nz.sot.detail.DetailViewModel"
 			/>
+
 	</data>
 	
 	<android.support.v4.widget.NestedScrollView
@@ -86,8 +87,21 @@
 				app:layout_constraintTop_toBottomOf="@id/subtitle"
 				tools:text="Example description that's reasonably long to show what it would look like with a full detail"
 				/>
-		
-		
+
+			<Button
+				android:id="@+id/buybutton"
+				style='@style/Widget.AppCompat.Button.Colored'
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/buyMovie"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/description"
+				android:onClick="@{() -> model.onClickBuyMovie()}"
+				tools:text="Click button to buy this movie"
+				/>
+
+
 		</android.support.constraint.ConstraintLayout>
 	
 	</android.support.v4.widget.NestedScrollView>
