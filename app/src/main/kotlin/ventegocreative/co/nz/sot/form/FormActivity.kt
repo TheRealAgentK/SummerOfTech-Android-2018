@@ -8,14 +8,12 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.MenuItem
-import android.widget.Toast
+import com.crashlytics.android.Crashlytics
 import com.google.firebase.analytics.FirebaseAnalytics
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.LocalData
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.databinding.ActivityFormBinding
-
-import ventegocreative.co.nz.sot.detail.DetailViewModel
 
 class FormActivity : AppCompatActivity() {
 	
@@ -48,16 +46,24 @@ class FormActivity : AppCompatActivity() {
 		setResult(Activity.RESULT_CANCELED)
 		super.onBackPressed()
 	}
-	
-	
+
 	private fun saveFilm() {
-		with(binding) {
-			LocalData(this@FormActivity).saveFilm(Film(
-					titleEt.text.toString(),
-					descriptionEt.text.toString(),
-					directorEt.text.toString(),
-					releaseDateEt.text.toString()))
+
+		try {
+			var thisBreaks:Int = 1.div(0)
+
+			with(binding) {
+				LocalData(this@FormActivity).saveFilm(Film(
+						titleEt.text.toString(),
+						descriptionEt.text.toString(),
+						directorEt.text.toString(),
+						releaseDateEt.text.toString()))
+			}
+		} catch (e:Exception) {
+			e.printStackTrace()
+			Crashlytics.logException(e)
 		}
+
 		setResult(Activity.RESULT_OK)
 
 		val params = Bundle()

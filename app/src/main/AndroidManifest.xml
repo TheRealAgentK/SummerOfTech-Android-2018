@@ -3,7 +3,9 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	package="ventegocreative.co.nz.sot"
 	>
-	
+
+	<meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false" />
+
 	<uses-permission android:name="android.permission.INTERNET" />
 	
 	<application
@@ -13,6 +15,7 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme"
+		android:name="ventegocreative.co.nz.sot.MainApplication"
 		>
 		<activity android:name=".main.MainActivity">
 			<intent-filter>
