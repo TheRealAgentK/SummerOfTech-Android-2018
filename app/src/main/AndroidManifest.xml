@@ -17,6 +17,7 @@
 		android:theme="@style/AppTheme"
 		android:name="ventegocreative.co.nz.sot.MainApplication"
 		>
+
 		<activity android:name=".main.MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -24,8 +25,25 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
 		<activity android:name=".detail.DetailActivity" />
+
 		<activity android:name=".form.FormActivity" />
+
+		<service
+			android:name=".notifications.FBMessagingService">
+			<intent-filter>
+				<action android:name="com.google.firebase.MESSAGING_EVENT"/>
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".notifications.FBInstanceIDService">
+			<intent-filter>
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+			</intent-filter>
+		</service>
+
 	</application>
 
 </manifest>
