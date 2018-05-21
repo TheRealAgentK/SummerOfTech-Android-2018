@@ -24,7 +24,7 @@ import ventegocreative.co.nz.sot.main.MainActivity
 
 class FBMessagingService: FirebaseMessagingService() {
 
-    private val TAG = "FBMesagingService"
+    private val TAG = "FBMessagingService"
 
     override fun onMessageReceived(remoteMessage: RemoteMessage?) {
 
@@ -44,11 +44,9 @@ class FBMessagingService: FirebaseMessagingService() {
 
         // Check if message contains a notification payload.
         if (remoteMessage.notification != null) {
+            sendNotification(remoteMessage.notification!!.body!!)
             Log.d(TAG, "Message Notification Body: " + remoteMessage.notification!!.body!!)
         }
-
-        // Also if you intend on generating your own notifications as a result of a received FCM
-        // message, here is where that should be initiated. See sendNotification method below.
     }
 
     private fun scheduleJob() {
@@ -61,6 +59,7 @@ class FBMessagingService: FirebaseMessagingService() {
     }
 
     private fun handleNow() {
+
         Log.d(TAG, "Short lived task is done.")
     }
 
@@ -72,6 +71,7 @@ class FBMessagingService: FirebaseMessagingService() {
         val channelId = getString(R.string.default_notification_channel_id)
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
+                .setSmallIcon(R.drawable.ic_notification)
                 .setContentTitle("FCM Message")
                 .setContentText(messageBody)
                 .setAutoCancel(true)
