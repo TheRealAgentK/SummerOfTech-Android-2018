@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.MenuItem
-import com.crashlytics.android.Crashlytics
 import com.google.firebase.analytics.FirebaseAnalytics
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.LocalData
@@ -49,19 +48,12 @@ class FormActivity : AppCompatActivity() {
 
 	private fun saveFilm() {
 
-		try {
-			var thisBreaks:Int = 1.div(0)
-
-			with(binding) {
-				LocalData(this@FormActivity).saveFilm(Film(
-						titleEt.text.toString(),
-						descriptionEt.text.toString(),
-						directorEt.text.toString(),
-						releaseDateEt.text.toString()))
-			}
-		} catch (e:Exception) {
-			e.printStackTrace()
-			Crashlytics.logException(e)
+		with(binding) {
+			LocalData(this@FormActivity).saveFilm(Film(
+					titleEt.text.toString(),
+					descriptionEt.text.toString(),
+					directorEt.text.toString(),
+					releaseDateEt.text.toString()))
 		}
 
 		setResult(Activity.RESULT_OK)
