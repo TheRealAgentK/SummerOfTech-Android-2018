@@ -101,6 +101,19 @@
 				tools:text="Click button to buy this movie"
 				/>
 
+			<Button
+				android:id="@+id/crasbutton"
+				style='@style/Widget.AppCompat.Button.Colored'
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Crash App"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/buybutton"
+				android:onClick="@{() -> model.onClickCrash()}"
+				tools:text="Click button to crash the app as a demo"
+				/>
+
 
 		</android.support.constraint.ConstraintLayout>
 	

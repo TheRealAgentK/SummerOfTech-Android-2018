@@ -9,6 +9,7 @@ import com.squareup.picasso.Picasso
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.models.Film
 import android.os.Bundle
+import com.crashlytics.android.Crashlytics
 import com.google.firebase.analytics.FirebaseAnalytics
 import java.util.*
 
@@ -38,6 +39,10 @@ class DetailViewModel(private val context: Context, private val film: Film) {
 
 		Toast.makeText(context, context.getString(R.string.puchaseOkToast), Toast.LENGTH_SHORT).show()
 		Log.i(DetailViewModel::class.java.simpleName, "Purchased: " + getTitle())
+	}
+
+	fun onClickCrash() {
+		Crashlytics.getInstance().crash()
 	}
 
 	private fun rand(from: Int, to: Int) : Int {
