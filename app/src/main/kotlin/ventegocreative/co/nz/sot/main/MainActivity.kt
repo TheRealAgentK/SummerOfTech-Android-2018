@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import butterknife.BindView
 import butterknife.ButterKnife
 import com.crashlytics.android.Crashlytics
@@ -18,6 +19,9 @@ import ventegocreative.co.nz.sot.data.LocalData
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.detail.DetailActivity
 import ventegocreative.co.nz.sot.form.FormActivity
+import com.google.firebase.iid.FirebaseInstanceId
+
+
 
 class MainActivity : AppCompatActivity() {
 	
@@ -40,6 +44,10 @@ class MainActivity : AppCompatActivity() {
 		fetchAndDisplayFilmsList()
 
 		mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
+
+		val token = FirebaseInstanceId.getInstance().token
+
+		Log.d("MainActivity", "onCreate, token is: " + token)
 	}
 	
 	override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
