@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
 import butterknife.BindView
 import butterknife.ButterKnife
+import com.crashlytics.android.Crashlytics
 import com.google.firebase.analytics.FirebaseAnalytics
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
@@ -56,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 			val localFilmsList = LocalData(this@MainActivity).getFilms()
 			val remoteFilmsList = FilmsRequest().send()
 			val combinedFilmsList = localFilmsList.plus(remoteFilmsList)
-			
+
 			uiThread {
 				filmList.adapter = FilmListAdapter(combinedFilmsList, { film: Film ->
 					startActivity(DetailActivity.getIntent(this@MainActivity, film))
@@ -64,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 			}
 		}
 	}
-	
+
 	companion object {
 		val REQUESTCODE_ADDFILM = 19
 	}
