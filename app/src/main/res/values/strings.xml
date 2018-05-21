@@ -6,4 +6,6 @@
     <string name="form_description">Description</string>
     <string name="buyMovie">Buy This Movie</string>
     <string name="puchaseOkToast">Purchase successful</string>
+    <string name="default_notification_channel_id">Advertisement</string>
+    <string name="default_notification_channel_name">Channel for movie ads</string>
 </resources>

@@ -20,6 +20,11 @@ import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.detail.DetailActivity
 import ventegocreative.co.nz.sot.form.FormActivity
 import com.google.firebase.iid.FirebaseInstanceId
+import android.app.NotificationManager
+import android.app.NotificationChannel
+import android.os.Build
+
+
 
 
 
@@ -36,6 +41,14 @@ class MainActivity : AppCompatActivity() {
 		super.onCreate(savedInstanceState)
 
 		setContentView(R.layout.activity_main)
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+			// Create channel to show notifications.
+			val channelId = getString(R.string.default_notification_channel_id)
+			val channelName = getString(R.string.default_notification_channel_name)
+			val notificationManager = getSystemService(NotificationManager::class.java)
+			notificationManager!!.createNotificationChannel(NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_HIGH))
+		}
 
 		ButterKnife.bind(this)
 
