@@ -1,7 +1,11 @@
 package ventegocreative.co.nz.sot.main
 
 import android.app.Activity
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.arch.lifecycle.Observer
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.v7.app.AppCompatActivity
@@ -9,23 +13,16 @@ import android.support.v7.widget.RecyclerView
 import android.util.Log
 import butterknife.BindView
 import butterknife.ButterKnife
-import com.crashlytics.android.Crashlytics
 import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.iid.FirebaseInstanceId
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import ventegocreative.co.nz.sot.R
-import ventegocreative.co.nz.sot.data.FilmsRequest
+import ventegocreative.co.nz.sot.data.DataManager
 import ventegocreative.co.nz.sot.data.LocalData
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.detail.DetailActivity
 import ventegocreative.co.nz.sot.form.FormActivity
-import com.google.firebase.iid.FirebaseInstanceId
-import android.app.NotificationManager
-import android.app.NotificationChannel
-import android.os.Build
-
-
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -76,17 +73,20 @@ class MainActivity : AppCompatActivity() {
 		doAsync(exceptionHandler = { throwable: Throwable -> throwable.printStackTrace() }) {
 			
 			val localFilmsList = LocalData(this@MainActivity).getFilms()
-			val remoteFilmsList = FilmsRequest().send()
-			val combinedFilmsList = localFilmsList.plus(remoteFilmsList)
-
-			uiThread {
-				filmList.adapter = FilmListAdapter(combinedFilmsList, { film: Film ->
-					startActivity(DetailActivity.getIntent(this@MainActivity, film))
-				})
-			}
+			DataManager.getFilms().observe(this@MainActivity, Observer { filmsList: List<Film>? ->
+				
+				val combinedFilmsList = localFilmsList.plus(filmsList ?: emptyList())
+				
+				uiThread {
+					filmList.adapter = FilmListAdapter(combinedFilmsList, { film: Film ->
+						startActivity(DetailActivity.getIntent(this@MainActivity, film))
+					})
+				}
+			})
+			
 		}
 	}
-
+	
 	companion object {
 		val REQUESTCODE_ADDFILM = 19
 	}
