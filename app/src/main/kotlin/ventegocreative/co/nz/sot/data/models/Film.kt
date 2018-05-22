@@ -2,6 +2,7 @@ package ventegocreative.co.nz.sot.data.models
 
 import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity
+import android.arch.persistence.room.Ignore
 import android.arch.persistence.room.PrimaryKey
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
@@ -14,26 +15,27 @@ data class Film(
 		@PrimaryKey
 		@ColumnInfo(name = "id")
 		@SerializedName("id")
-		val id: String,
+		var id: String,
 		
 		@ColumnInfo(name = "title")
 		@SerializedName("title")
-		val title: String,
+		var title: String,
 		
 		@ColumnInfo(name = "description")
 		@SerializedName("description")
-		val description: String,
+		var description: String,
 		
 		@ColumnInfo(name = "director")
 		@SerializedName("director")
-		val director: String,
+		var director: String,
 		
 		@ColumnInfo(name = "release_date")
 		@SerializedName("release_date")
-		val releaseDate: String
+		var releaseDate: String
 		
 ) : Parcelable {
 	
+	@Ignore
 	constructor(title: String, description: String, director: String, releaseDate: String) :
 			this(UUID.randomUUID().toString(), title, description, director, releaseDate)
 	

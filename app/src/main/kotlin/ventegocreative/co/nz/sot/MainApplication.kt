@@ -1,8 +1,9 @@
 package ventegocreative.co.nz.sot
 
 import android.app.Application
-import io.fabric.sdk.android.Fabric
 import com.crashlytics.android.Crashlytics
+import io.fabric.sdk.android.Fabric
+import ventegocreative.co.nz.sot.data.DataManager
 
 class MainApplication : Application() {
 
@@ -14,6 +15,8 @@ class MainApplication : Application() {
                 .debuggable(true)
                 .build()
         Fabric.with(fabric)
-
+    
+        DataManager.init(applicationContext)
+    
     }
 }
