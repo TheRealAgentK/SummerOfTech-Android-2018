@@ -1,6 +1,5 @@
 package ventegocreative.co.nz.sot.main
 
-import android.app.Activity
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.arch.lifecycle.Observer
@@ -19,7 +18,6 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import ventegocreative.co.nz.sot.R
 import ventegocreative.co.nz.sot.data.DataManager
-import ventegocreative.co.nz.sot.data.LocalData
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.detail.DetailActivity
 import ventegocreative.co.nz.sot.form.FormActivity
@@ -61,24 +59,21 @@ class MainActivity : AppCompatActivity() {
 	}
 	
 	override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-		if (resultCode == Activity.RESULT_OK) {
-			when (requestCode) {
-				REQUESTCODE_ADDFILM -> fetchAndDisplayFilmsList()
-			}
-		}
+//		if (resultCode == Activity.RESULT_OK) {
+//			when (requestCode) {
+//				REQUESTCODE_ADDFILM -> fetchAndDisplayFilmsList()
+//			}
+//		}
 		super.onActivityResult(requestCode, resultCode, data)
 	}
 	
 	private fun fetchAndDisplayFilmsList() {
 		doAsync(exceptionHandler = { throwable: Throwable -> throwable.printStackTrace() }) {
 			
-			val localFilmsList = LocalData(this@MainActivity).getFilms()
 			DataManager.getFilms().observe(this@MainActivity, Observer { filmsList: List<Film>? ->
-				
-				val combinedFilmsList = localFilmsList.plus(filmsList ?: emptyList())
-				
+				Log.d("MainActivity", "Film list updated")
 				uiThread {
-					filmList.adapter = FilmListAdapter(combinedFilmsList, { film: Film ->
+					filmList.adapter = FilmListAdapter(filmsList ?: emptyList(), { film: Film ->
 						startActivity(DetailActivity.getIntent(this@MainActivity, film))
 					})
 				}

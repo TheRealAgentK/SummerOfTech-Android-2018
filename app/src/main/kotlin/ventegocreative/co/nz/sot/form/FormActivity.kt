@@ -10,7 +10,7 @@ import android.util.Log
 import android.view.MenuItem
 import com.google.firebase.analytics.FirebaseAnalytics
 import ventegocreative.co.nz.sot.R
-import ventegocreative.co.nz.sot.data.LocalData
+import ventegocreative.co.nz.sot.data.DataManager
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.databinding.ActivityFormBinding
 
@@ -49,7 +49,7 @@ class FormActivity : AppCompatActivity() {
 	private fun saveFilm() {
 
 		with(binding) {
-			LocalData(this@FormActivity).saveFilm(Film(
+			DataManager.saveFilm(Film(
 					titleEt.text.toString(),
 					descriptionEt.text.toString(),
 					directorEt.text.toString(),

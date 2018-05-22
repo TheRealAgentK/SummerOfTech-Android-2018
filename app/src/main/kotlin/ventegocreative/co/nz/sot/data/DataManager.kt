@@ -3,6 +3,7 @@ package ventegocreative.co.nz.sot.data
 import android.arch.lifecycle.LiveData
 import android.content.Context
 import android.util.Log
+import org.jetbrains.anko.doAsync
 import ventegocreative.co.nz.sot.data.models.Film
 import java.net.UnknownHostException
 
@@ -17,7 +18,7 @@ object DataManager {
 	
 	fun getFilms(): LiveData<List<Film>> {
 		try {
-//			Try and refresh data
+//			Try and refresh remote data
 			val films: List<Film> = FilmsRequest().send()
 			
 			database.filmDao().insertAllFilms(films)
@@ -28,5 +29,11 @@ object DataManager {
 		}
 		
 		return database.filmDao().loadFilms()
+	}
+	
+	fun saveFilm(film: Film) {
+		doAsync {
+			database.filmDao().insertFilm(film)
+		}
 	}
 }
