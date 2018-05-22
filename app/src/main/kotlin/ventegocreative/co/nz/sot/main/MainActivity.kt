@@ -3,6 +3,7 @@ package ventegocreative.co.nz.sot.main
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.arch.lifecycle.Observer
+import android.arch.lifecycle.ViewModelProviders
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -17,7 +18,6 @@ import com.google.firebase.iid.FirebaseInstanceId
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import ventegocreative.co.nz.sot.R
-import ventegocreative.co.nz.sot.data.DataManager
 import ventegocreative.co.nz.sot.data.models.Film
 import ventegocreative.co.nz.sot.detail.DetailActivity
 import ventegocreative.co.nz.sot.form.FormActivity
@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 	lateinit var addFab: FloatingActionButton
 
 	lateinit var mFirebaseAnalytics: FirebaseAnalytics
+	
+	private val viewmodel by lazy { ViewModelProviders.of(this).get(MainViewModel::class.java) }
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -44,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 			val notificationManager = getSystemService(NotificationManager::class.java)
 			notificationManager!!.createNotificationChannel(NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_HIGH))
 		}
-
+		
 		ButterKnife.bind(this)
 
 		addFab.setOnClickListener { startActivityForResult(FormActivity.getIntent(this), REQUESTCODE_ADDFILM) }
@@ -70,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 	private fun fetchAndDisplayFilmsList() {
 		doAsync(exceptionHandler = { throwable: Throwable -> throwable.printStackTrace() }) {
 			
-			DataManager.getFilms().observe(this@MainActivity, Observer { filmsList: List<Film>? ->
+			viewmodel.filmsList.observe(this@MainActivity, Observer { filmsList: List<Film>? ->
 				Log.d("MainActivity", "Film list updated")
 				uiThread {
 					filmList.adapter = FilmListAdapter(filmsList ?: emptyList(), { film: Film ->
